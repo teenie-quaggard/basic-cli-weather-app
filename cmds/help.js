@@ -4,10 +4,16 @@ const menus = {
 
     today .............. show weather for today
     version ............ show package version
-    help ............... show help menu for a command`,
+    help ............... show help menu for a command
+    forecast............ show 10 day weather forecast`,
 
   today: `
     outside today <options>
+
+    --location, -l ..... the location to use`,
+
+  forecast: ` 
+    outside forecast <options>
 
     --location, -l ..... the location to use`
 };
