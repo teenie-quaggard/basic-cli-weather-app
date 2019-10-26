@@ -1,0 +1,25 @@
+{
+  "name": "basic-cli-weather-app",
+  "version": "1.0.0",
+  "description": "Basic CLI weather application made following: https://timber.io/blog/creating-a-real-world-cli-app-with-node/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "outside": "bin/outside"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teenie-quaggard/basic-cli-weather-app.git"
+  },
+  "author": "Kristina-Talisa Jaggard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teenie-quaggard/basic-cli-weather-app/issues"
+  },
+  "homepage": "https://github.com/teenie-quaggard/basic-cli-weather-app#readme",
+  "dependencies": {
+    "minimalist": "^1.0.0"
+  }
+}
